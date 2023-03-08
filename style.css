@@ -8,6 +8,10 @@
   color: #476BF0;
 }
 
+.bg-gray {
+  color: #838383;
+}
+
 .conteiner {
   max-width: 750px;
 }
@@ -121,6 +125,7 @@ header .information .inform-button {
   border-radius: 15px;
   font-size: 22px;
   border: none;
+  cursor: pointer;
 }
 header .information .inform-button-2 {
   background-color: #E5E5E5;
@@ -134,6 +139,7 @@ header .information .inform-button-2 {
   border: 1px solid #476BF0;
   position: absolute;
   top: 338px;
+  cursor: pointer;
 }
 header .information .icons {
   display: flex;
@@ -150,14 +156,138 @@ header .information .icons li {
   border-radius: 150px;
   padding: 16px;
   font-size: 30px;
-  color: #476BF0;
+  color: #a5b7f7;
+  cursor: pointer;
 }
 header .information .massage {
+  padding: 10px;
   height: 81px;
   width: 201px;
   margin-left: 800px;
-  margin-top: 15px;
+  margin-top: 25px;
   border-radius: 4px;
   background: #FFFFFF;
   border: 1px solid rgb(228, 226, 226);
+  text-align: center;
+  font-size: 20px;
+  color: #a19e9e;
+  cursor: pointer;
+}
+header .hend {
+  font-size: 22px;
+  color: #a19e9e;
+  left: 920px;
+  position: absolute;
+  top: 340px;
+}
+
+.section-navbar-3 ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin-top: 500px;
+  position: absolute;
+  left: 250px;
+  align-items: center;
+  text-align: center;
+  top: 50px;
+}
+.section-navbar-3 ul :nth-child(1) {
+  color: #FFFFFF;
+  background: #476BF0;
+}
+.section-navbar-3 ul :hover {
+  color: #FFFFFF;
+  background: #476BF0;
+}
+.section-navbar-3 ul li {
+  width: 240px;
+  height: 63px;
+  border: none;
+  background: #E8ECFF;
+  font-size: 26px;
+  align-items: center;
+  padding-top: 15px;
+  border-radius: 15px;
+  color: #87a0fa;
+  cursor: pointer;
+}
+.section-navbar-3 ul li a {
+  text-decoration: none;
+  background: #E8ECFF;
+}
+
+.description {
+  width: 1100px;
+  height: 800px;
+  margin-left: 300px;
+  margin-top: 600px;
+}
+.description h2 {
+  padding: 10px 0px;
+  font-size: 26px;
+}
+.description p {
+  padding: 10px 0px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #252A34;
+}
+.description ul {
+  font-size: 22px;
+  padding: 20px 0px;
+  color: #252A34;
+  list-style: none;
+}
+.description ul li {
+  padding-bottom: 10px;
+}
+.description #circle {
+  color: #476BF0;
+  font-size: 10px;
+  padding-right: 20px;
+}
+.description .inform-button {
+  height: 88px;
+  width: 434px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 15px;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #476BF0;
+  border: none;
+  cursor: pointer;
+}
+.description .inform-button :hover {
+  color: #9db1fa;
+}
+.description .inform-button a {
+  padding-left: 50px;
+}
+.description .inform-button #circl {
+  font-size: 45px;
+  position: absolute;
+  left: 405px;
+  top: 1560px;
+}
+.description h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section-navbar-4 h1 {
+  font-size: 40px;
+  margin-left: 620px;
+  padding-top: 50px;
+  width: 600px;
+}
+.section-navbar-4 ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 300px;
 }/*# sourceMappingURL=style.css.map */
