@@ -11,7 +11,7 @@
     color: #838383;
   }
 .conteiner{
-    max-width: 750px;
+    max-width: 1000px;
 }
 navbar{
     height: 78px;
@@ -185,13 +185,11 @@ header{
         }
         
 }
-.section-navbar-3 ul {
+.section-navbar-3 ul{
     display: flex;
     gap: 50px;
     list-style: none;
     margin-top: 500px;
-    position: absolute;
-    left: 250px;
     align-items: center;
     text-align: center;
     top: 50px;
@@ -291,11 +289,11 @@ h1{
 .section-navbar-4 {
     h1{
         font-size: 40px;
-       margin-left: 620px;
-        padding-top: 50px;
+        margin-left: 620px;
+        padding-top: 50px
         width: 600px;
       }
-
+    
 ul{
   display: flex;
   gap: 60px;

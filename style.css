@@ -185,21 +185,18 @@ header .hend {
   display: flex;
   gap: 50px;
   list-style: none;
-  margin-top: 500px;
-  position: absolute;
-  left: 250px;
   align-items: center;
   text-align: center;
-  top: 50px;
+  margin: 250px 120px;
 }
-.section-navbar-3 ul :nth-child(1) {
+.section-navbar-3 ul li :hover {
   color: #FFFFFF;
   background: #476BF0;
+  padding: 14px 80px;
+  border-radius: 15px;
+  border: 1px solid rgb(41, 82, 156);
 }
-.section-navbar-3 ul :hover {
-  color: #FFFFFF;
-  background: #476BF0;
-}
+
 .section-navbar-3 ul li {
   width: 240px;
   height: 63px;
@@ -220,8 +217,8 @@ header .hend {
 .description {
   width: 1100px;
   height: 800px;
-  margin-left: 300px;
-  margin-top: 600px;
+  margin-left: 250px;
+  margin-top: -400px;
 }
 .description h2 {
   padding: 10px 0px;
@@ -268,8 +265,8 @@ header .hend {
 .description .inform-button #circl {
   font-size: 45px;
   position: absolute;
-  left: 405px;
-  top: 1560px;
+  left: 353px;
+  top: 1624px;
 }
 .description h1 {
   font-size: 40px;
@@ -291,3 +288,65 @@ header .hend {
   margin-top: 300px;
   margin-left: 300px;
 }/*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 305px) and (max-width: 450px){
+  .description{
+ margin-left: 20px;
+ width: 360px;
+ font-size: 16px;
+ }
+ .description .inform-button {
+  width: 271px;
+  height: 55px;
+  font-size: 14px;
+  margin-bottom: -80px;
+ }
+ .description h1 {
+  font-size: 24px;
+ }
+ .description ul{
+  font-size: 16px;
+ }
+}
+@media screen and (min-width: 450px) and (max-width: 500px){
+  .description{
+ margin-left: 20px;
+ width: 420px;
+ font-size: 16px;
+ }
+ .description .inform-button {
+  width: 271px;
+  height: 55px;
+  font-size: 14px;
+  margin-bottom: -80px;
+ }
+ .description h1 {
+  font-size: 24px;
+ }
+ .description ul{
+  font-size: 16px;
+ }
+ .section-navbar-3 ul {
+  width: 139px;
+  height: 37px;
+ }
+}
+@media screen and (min-width: 500px) and (max-width: 550px){
+  .description{
+ margin-left: 20px;
+ width: 470px;
+ font-size: 16px;
+ }
+ .description .inform-button {
+  width: 271px;
+  height: 55px;
+  font-size: 14px;
+  margin-bottom: -80px;
+  margin-left: 100px;
+ }
+ .description h1 {
+  font-size: 24px;
+ }
+ .description ul{
+  font-size: 16px;
+ }
+}
