@@ -1,237 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Тинькофф</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;1,400;1,600&display=swap");
+    </style>
+    <title>Partfolio</title>
   </head>
   <body>
-    <div class="conteiner">
-      <section>
-        <navbar>
-          <h1 class="bg-blue">AIO</h1>
-          <h2>|</h2>
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <header>
+      <a href="#" class="brand">Qobil</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+    <section class="main" id="main">
+      <div class="content">
+        <h2>
+          Hello , I'm <br />
+          <span>Qobil Abdurahmonov</span>
+        </h2>
+        <div class="animated-text">
+          <h3>Frontend Devoloper</h3>
+          <h3>TypeScript</h3>
+          <h3>Angular</h3>
+          <h3>React</h3>
+          <h3>Git</h3>
+          <h3>Figma</h3>
+          <h3>JavaScript</h3>
+        </div>
+        <a href="#" class="btn">See My Work</a>
+        <div class="media-icons">
+          <a
+            href="https://ok.ru/profile/571070936432?utm_campaign=web_share&utm_content=profile"
+            class="fab fa-odnoklassniki"
+          ></a>
+          <a
+            href="https://www.instagram.com/Abdurahmonov_0550/?igshid=YmMyMTA2M2Y%3D "
+            class="fab fab fa-instagram"
+          ></a>
+          <a
+            href="https://vk.com/photo573207165_457239180"
+            class="fab fa-vk"
+          ></a>
+          <a
+            href="https://wa.me/qr/UKHVYBRKYQAYC1"
+            class="fab fab fa-whatsapp"
+          ></a>
+          <a href="https://t.me/Qobil_Abdurahmonov" class="fab fa-telegram"></a>
+        </div>
+      </div>
+    </section>
 
-          <p class="p-gray">
-            Сервис подбора <br />
-            банковских услуг
-          </p>
-          <div>
-            <ul class="navigator">
-              <li>КРЕДИТНЫЕ КАРТЫ</li>
-              <li>КРЕДИТЫ</li>
-              <li>ЗАЙМЫ</li>
-              <li>РКО</li>
-            </ul>
+    <section class="about" id="about">
+      <div class="title reveal">
+        <div class="section-title">About Me</div>
+      </div>
+      <div class="content">
+        <div class="column col-left revel">
+          <div class="img-card">
+            <img src="./photo/photo.jpg" alt="" />
           </div>
-        </navbar>
-      </section>
+        </div>
+        <div class="column col-right revel">
+          <h2 class="conten-title">Hey there! I'm Qobil Abdurahmonov</h2>
+          <p class="paragraph-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            accusamus provident! Debitis perspiciatis dignissimos incidunt eius
+            repellendus! <br />
+            Natus fuga, beatae ratione itaque repudiandae aspernatur tempore
+            blanditiis sapiente cupiditate, veniam impedit iure consequuntur
+            laboriosam dolorem quidem cumque, similique perferendis. <br />
+            Ipsa, molestiae eius quas nobis unde nesciunt blanditiis aperiam,
+            omnis commodi autem ducimus odio numquam. Porro ipsa corporis nam
+          </p>
+          <p class="paragraph-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            accusamus provident! Debitis perspiciatis dignissimos incidunt eius
+            repellendus! <br />
+            Lorem fuga, beatae ratione itaque repudiandae aspernatur tempore
+            blanditiis sapiente cupiditate, veniam impedit iure consequuntur
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
 
-      <section>
-        <header>
-          <div class="information">
-            <h1>
-              Кредитная карта Тинькофф <br />
-              All Airlines Black Edition
-            </h1>
-            <ul class="star">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li>122 отзыва</li>
-            </ul>
-            <table class="inform">
-              <tr>
-                <td>Кредитный лимит</td>
-                <td class="bg-blue">2 000 000 ₽</td>
-                <td>Годовая ставка</td>
-                <td class="bg-blue">12%</td>
-              </tr>
-              <br />
-              <tr>
-                <td>Льготный период</td>
-                <td class="bg-blue">55 дней</td>
-                <td>Обслуживание</td>
-                <td class="bg-blue">от 0 ₽</td>
-              </tr>
-              <br />
-              <tr>
-                <td>Кэшбэк</td>
-                <td class="bg-blue">до 30%</td>
-                <td>Оформление</td>
-                <td class="bg-blue">2 мин.</td>
-              </tr>
-            </table>
-            <button class="inform-button">Оформить сейчас</button>
-            <button class="inform-button-2">
-              234 124 заявок <br />Оставлено за июнь
-            </button>
-            <img src="./photo/card.png" alt="" class="tincoff-card" />
-            <ul class="icons">
-              <li><i class="fa-regular fa-thumbs-up"></i></li>
-              <li><i class="fa-solid fa-hand-holding-dollar"></i></li>
-              <li><i class="fa-sharp fa-regular fa-clock"></i></li>
-              <li><i class="fa-regular fa-user"></i></li>
-            </ul>
-            <p class="hend"><i class="fa-regular fa-hand-pointer"></i></p>
-            <div class="massage">
-              <p>
-                Кэшбэк выше 70% <br />
-                конкурентов
-              </p>
+    <section class="skills">
+      <div class="title reveal" id="skills">
+        <div class="section-title">My Skills</div>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Skills and Experiences</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            in laudantium dicta ex nobis. Facilis sunt temporibus blanditiis
+            ipsum ullam ipsam rerum accusantium nesciunt aut! Iste commodi,
+            quidem expedita eaque saepe dolore aliquam perferendis debitis
+            asperiores hic! Odit temporibus debitis reprehenderit autem
+            architecto a corrupti culpa incidunt! Tempore, illum iste. ipsum
+            ullam ipsam rerum accusantium nesciunt aut! Iste commodi, quidem
+            expedita eaque saepe dolore aliquam perferendis debitis asperiores
+            hic! Odit temporibus debitis reprehenderit autem architecto a
+            corrupti culpa incidunt! Tempore, illum iste.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+        <div class="column col-right reveal">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+              <span>98%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="line JavaScript"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Angular</span>
+              <span>80%</span>
+            </div>
+            <div class="line Angular"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>TypeScript</span>
+              <span>70%</span>
+            </div>
+            <div class="line TypeScript"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>GIT</span>
+              <span>80%</span>
+            </div>
+            <div class="line Git"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="title reveal">
+        <div class="section-title">Me Services</div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+          dolorem praesentium pariatur, officia ab aspernatur porro
+          necessitatibus quasi neque animi sapiente dicta accusamus amet
+          incidunt sunt minus harum? Nulla nemo praesentium eveniet voluptatem.
+          A eveniet incidunt rem dignissimos fugiat, praesentium officiis quos
+          harum odio inventore libero delectus, explicabo quisquam, nobis
+          molestiae! Neque natus asperiores, fugit et officia nostrum quaerat
+          laudantium odio, aliquam provident quibusdam quis labore sunt,
+          cupiditate esse iste consequatur veritatis praesentium dolor numquam
+          velit ipsa. Exercitationem, aliquam ipsum?
+        </p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Web Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+              veritatis voluptatibus earum perspiciatis non cum sint dolores
+              dolorem.
+            </p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Web Devoloper</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+              veritatis voluptatibus earum perspiciatis non cum sint dolores
+              dolorem.
+            </p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas far fa-object-group"></i>
+          </div>
+          <div class="info">
+            <h3>Web Frontend</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+              veritatis voluptatibus earum perspiciatis non cum sint dolores
+              dolorem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="title reveal">
+        <div class="section-title">My Work</div>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="./photo/work6.jpg" alt="" />
+          </div>
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">See All</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <div class="section-title">Contact Me</div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Adresss</h3>
+              <span>Khujand City</span>
             </div>
           </div>
-        </header>
-      </section>
-      <section>
-        <div class="section-navbar-3">
-          <ul>
-            <ul>
-              <li><a href="./index.html">Окарте</a></li>
-              <li><a href="./index-rate.html">Тариф</a></li>
-              <li><a href="./index-requirement.html">Требования</a></li>
-              <li><a href="./index-reviews.html">Отзывы(122)</a></li>
-            </ul>
-          </ul>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span
+                ><a href="tel:+(992)-92-756-12-64">+992 92 756 12 64</a></span
+              >
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas far fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Adress</h3>
+              <span
+                ><a href="mailto:qobil.abdu0550@mail.ru"
+                  >qobil.abdu0550@mail.ru</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>MyPortfolio.nelify.app</span>
+            </div>
+          </div>
         </div>
-
-        <div class="description">
-          <h2>Описание</h2>
-          <p>Плата за обслуживание карты бесплатно:</p>
-          <ul>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>
-              при наличии на счете вклада, на накопительном счете, картсчете
-              и/или брокерском счете за расчетный период остатка в сумме не
-              менее 3 000 000 ₽
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>
-              при наличии на счете вклада, на накопительном счете, картсчете
-              и/или брокерском счете остатка в сумме не менее 1 000 000 руб. и
-              при сумме покупок 200 000 руб. и более за расчетный период по всем
-              картам клиента.
-            </li>
-          </ul>
-          <p>Иначе 1 990 руб. ежемесячно в дату выписки.</p>
-          <h2>Условия</h2>
-          <ul>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>Срок
-              действия карты - 5 лет
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>Выпуск
-              карты - бесплатно
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>Получение
-              карты - у курьера
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i
-              >Рассмотрение заявки - сутки
-            </li>
-          </ul>
-          <h2>Бонусы и скидки / Кэшбэк за покупки / Бонусные мили</h2>
-          <ul>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>
-              10% за отели и машины при бронировании на сайте Букинг и на сайте
-              ренткарс через Тинькофф Путешествия
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i> 7% за
-              авиабилеты на сайте Тинькофф Путешествиях
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>
-              2% за авиабилеты на сайтах Аэрофлота, S7, Победы, Ural Airlines и
-              Utair
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i>
-              5% за туры, ж/д и авиабилеты при бронировании через Путешествия
-            </li>
-            <li>
-              <i class="fa-sharp fa-solid fa-circle" id="circle"></i> 1 миля = 1
-              ₽. Меняйте мили на любые билеты от 6 000 ₽
-            </li>
-          </ul>
-          <button class="inform-button">
-            <i class="fa-sharp fa-regular fa-circle" id="circl"></i>
-            <i class="fa-regular fa-gem"></i>
-            <a> Тинькофф Премиум</a>
-          </button>
-          <button class="inform-button">
-            <i
-              class="fa-sharp fa-regular fa-circle"
-              id="circl"
-              style="left: 818px"
-            ></i>
-            <i class="fa-sharp fa-regular fa-id-badge"></i>
-            <a>Расширенная страховка</a>
-          </button>
-          <h1>Похожие кредитные карты</h1>
+        <div class="row">
+          <div class="contact-form reveal">
+            <h3>See Message</h3>
+            <div class="input-box">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <textarea cols="80" rows="8" placeholder="Message"></textarea>
+            </div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" value="Send" />
+            </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <div class="section-navbar-4">
-          <ul>
-            <li>
-              <p>Альфа-Банк</p>
-              <img src="./photo/alfa-1.png" alt="Альфа-банк" />
-              <h3>100 дней без %</h3>
-              <p class="bg-gray">Кредитный лимит</p>
-              <p class="bg-blue">2 000 000 ₽</p>
-              <p class="bg-gray">Годовая ставка</p>
-              <p class="bg-blue">12%</p>
-              <p class="bg-gray">Кэшбэк</p>
-              <p class="bg-blue">до 30%</p>
-            </li>
-            <li>
-              <p>Альфа-Банк</p>
-              <img src="./photo/alfa-2.png" alt="Аэрофлот" />
-              <h3>Аэрофлот</h3>
-              <p class="bg-gray">Кредитный лимит</p>
-              <p class="bg-blue">2 000 000 ₽</p>
-              <p class="bg-gray">Годовая ставка</p>
-              <p class="bg-blue">12%</p>
-              <p class="bg-gray">Кэшбэк</p>
-              <p class="bg-blue">до 30%</p>
-            </li>
-            <li>
-              <p>Россельхоз Банк</p>
-              <img src="./photo/alfa-3.png" alt="Россельхоз-банк" />
-              <h3>Роснефть</h3>
-              <p class="bg-gray">Кредитный лимит</p>
-              <p class="bg-blue">2 000 000 ₽</p>
-              <p class="bg-gray">Годовая ставка</p>
-              <p class="bg-blue">12%</p>
-              <p class="bg-gray">Кэшбэк</p>
-              <p class="bg-blue">до 30%</p>
-            </li>
-            <li>
-              <p>Банк ВТБ</p>
-              <img src="./photo/alfa-4.png" alt="ВТБ-банк" />
-              <h3>Мультикарта</h3>
-              <p class="bg-gray">Кредитный лимит</p>
-              <p class="bg-blue">2 000 000 ₽</p>
-              <p class="bg-gray">Годовая ставка</p>
-              <p class="bg-blue">12%</p>
-              <p class="bg-gray">Кэшбэк</p>
-              <p class="bg-blue">до 30%</p>
-            </li>
-          </ul>
-          <h1>Полезная информация</h1>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <span class="footer-title">Qobil Abdurahmonov</span>
+      <p>Copyright &#169;2023. All Rights Reserved</p>
+    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
